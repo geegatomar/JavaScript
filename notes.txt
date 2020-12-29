@@ -131,7 +131,17 @@ or you do it in the js file       : 	document.addEventListener('load', alert("Ye
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Convention for naming in JS:
 
+FULLCAPS            : for const 
+UseCamelCase        : for naming JavaScript objects
+useLowerCamelCase   : for functions and variables
+smallcase           : for class="" and id="" names
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+use parseInt() and parseFloat() to explicitly convert string/text to int/float, to avoid errors like: "1" + "2" ==> "12" (but you expected 3)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
