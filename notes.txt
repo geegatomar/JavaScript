@@ -144,4 +144,59 @@ use parseInt() and parseFloat() to explicitly convert string/text to int/float, 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+NaN means 'Not a Number' 
+and isNaN() is used to check if valid int number is entered or not
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How does the id HTML attribute tie web elements to JavaScript code?
+
+Think of the id attribute as the portal through which JavaScript code accesses HTML content. When people say JavaScript code runs on a web page, they don’t literally mean the web page itself—they mean the browser. In reality, JavaScript code is fairly insulated from HTML code, and can only access it through very specific mechanisms. One of these mechanisms involves the id attribute, which lets JavaScript retrieve an HTML element. Tagging a web element with an ID allows the element to be found by JavaScript code, opening up all kinds of scripting possibilities
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To check if a substring occurs in string, or if an element is present in an array, we use 	.indexOf("") == -1
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Once a page has been delivered to the browser, the server is largely out of the equation. Virtually everything that JavaScript does from there on out is confined to the browser. This makes pages more responsive since they don’t have to wait for the server to process and return data. This process is why JavaScript is known as a client language.
+The web browser has the ability to run JavaScript code using JavaScript interpreter.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Your client web browser is responsible for running JavaScript code, which allows scripts access to the client environment.
+Examples of things that the browser can control : 
+1. Browser metrics
+2. Browser history
+3. Timers                    : ex - setTimeout("alert()", 1000*60*5);
+4. Cookies
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Some of the basic events that are triggered and are written in the body tag are: onload, onresize, onclick, onhover
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What are cookies?
+
+Unfortunately, JavaScript variables are fleeting, and are destroyed the moment the browser closes or the page refreshes. Browser cookies offer a way to store data persistently so that it lasts beyond the life cycle of a script.
+A cookie is a piece of data stored by the browser on the user’s computer.
+Cookies are a lot like JavaScript variables except that cookies hang around after you close the browser, reload a page, turn off your computer, remodel your house, etc. 
+
+The browser maintains a collection of cookies that have been created by different web pages. 
+The browser stores the user name cookie on their hard disk for safe keeping.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Difference between Cache and Cookie?
+
+Both Cache and Cookies were fabricated to spice up up web site performance and to create it additional accessible through storing some data on the client-side machine.
+
+The main difference between Cache and Cookie is that, Cache is used to store online page resources during a browser for the long run purpose or to decrease the loading time. On the other hand, cookies are employed to store user choices such as browsing session to trace the user preferences.
+
+
+Note: 
+Caches are of many kinds, here we are referring to the browser's cache. So the browsres cache data is also stored on the harddisk itself (even cookies are stored on the harddisk). This is done because loading data from the harddisk is faster than loading it from the server. Hence cache is useful for faster loading of pages. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 

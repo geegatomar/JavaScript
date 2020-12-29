@@ -12,9 +12,9 @@ function onTouchRock()
     {
         alert("Good to meet you " + username);
         document.getElementById("rockImg").src = "images/after_click.png";
+        setTimeout(function(){ document.getElementById('rockImg').src = 'images/before_click.jpg'; }, 5*1000);
     }
 }
-
 
 
 //document.getElementById('btn').addEventListener('click', onTouchRock());
