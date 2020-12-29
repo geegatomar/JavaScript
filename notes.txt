@@ -1,0 +1,31 @@
+====================================================================================================================================================================
+JAVASCRIPT
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Javascript is a scripting language.
+
+Basically, all scripting languages are programming languages. The theoretical difference between the two is that scripting languages do not require the compilation step and are rather interpreted. For example, normally, a C program needs to be compiled before running whereas normally, a scripting language like JavaScript or PHP need not be compiled.
+
+ As the name suggest, it’s all about giving the script to perform some certain task. Scripting languages are basically the subcategory of programming languages which is used to give guidance to another program or we can say to control another program, so it also involves instructions. It basically connects one language to one another languages and doesn’t work standalone. Javascript, PHP, Perl, Python, VBScript these all are the examples of scripting language. Scripting languages need to be interpreted (Scanning the code line by line, not like compiler in one go) instead of compiled. There is no scope of compiler in scripting languages. Scripting languages are most widely used to create a website.
+ 
+ Hence types of languages- 
+ 1. Programming Languages : C, C++, Java
+ 2. Scripting languages : Python, Javascript
+ 3. Markup Languages : HTML, CSS
+ 
+ 
+
+Programming vs Scripting vs Markup
+ 
+ So we can say that all the scripting languages are programming languages but all the programming languages are not scripting languages. C cannot be called a scripting language, it is just a programming language but we can call JavaScript or Php programming or scripting languages. Also, there is no need to compile scripting languages it only needs to be interpreted. Scripting languages are generally slower than programming languages because compiled programs are first converted into machine code. On the other hand, markup languages are just used to define the structure of data which doesn’t require any logic or algorithm
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How is HTML displayed on the browser?
+
+The HTML code needs to be understood by the browser to be able to display the webpage accordingly. So the HTML first gets parsed into a tree (DOM). Then the browser uses the <style> CSS elements to position the elements on the page. 
+HTML is neither interpreted nor compiled, since it is not a programming language
+
+So the function of the web browser is to "render" HTML + CSS, and "interpret" JavaScript
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
