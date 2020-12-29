@@ -195,6 +195,7 @@ Both Cache and Cookies were fabricated to spice up up web site performance and t
 The main difference between Cache and Cookie is that, Cache is used to store online page resources during a browser for the long run purpose or to decrease the loading time. On the other hand, cookies are employed to store user choices such as browsing session to trace the user preferences.
 Cookies allow you to store data persistently on the client withouteven involving the server. Hence, cookie provides "handy 
 
+
 Note: 
 Caches are of many kinds, here we are referring to the browser's cache. So the browsres cache data is also stored on the harddisk itself (even cookies are stored on the harddisk). This is done because loading data from the harddisk is faster than loading it from the server. Hence cache is useful for faster loading of pages. 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
