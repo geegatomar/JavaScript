@@ -227,6 +227,7 @@ Note: In JavaScript, everything is an object. Even the document.
 Regular Expressions in JavaScript
 
 Regular expressions always start and end with a forward slash.       / expression /
+Quatifiers: *, +, ?, {n}
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
