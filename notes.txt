@@ -198,6 +198,7 @@ Cookies allow you to store data persistently on the client withouteven involving
 
 Note: 
 Caches are of many kinds, here we are referring to the browser's cache. So the browsres cache data is also stored on the harddisk itself (even cookies are stored on the harddisk). This is done because loading data from the harddisk is faster than loading it from the server. Hence cache is useful for faster loading of pages. 
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
