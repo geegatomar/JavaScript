@@ -2,6 +2,14 @@
 JAVASCRIPT
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Everything in javascript is an OBJECT! Even the document. And we operate on these objects and alter their attributes/properties using Javascript.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use console.log(" your text ") to debug your JavaScript code. And to view it, got to More Tools -> Developer Tools in the Chrome browser
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Javascript is a scripting language.
 
 Basically, all scripting languages are programming languages. The theoretical difference between the two is that scripting languages do not require the compilation step and are rather interpreted. For example, normally, a C program needs to be compiled before running whereas normally, a scripting language like JavaScript or PHP need not be compiled.
@@ -227,13 +235,143 @@ Note: In JavaScript, everything is an object. Even the document.
 Regular Expressions in JavaScript
 
 Regular expressions always start and end with a forward slash.       / expression /
-Quatifiers: *, +, ?, {n}
+Quantifiers control the number of times a sub-pattern appears in a regular expression. Quantifiers: *, +, ?, {n}
+
+A regular expression in JavaScript is represented by the RegExp object, which includes a method called test() that is the key to using regular expressions for data validation. The test() method checks for the existence of a pattern within a string.
+
+{min, max} 	to specify range, 	ex- {2, 5} will accept any values of 2, 3, 4, 5
+this | that 	to specify options, ex - 2|3|4|5
+
+[CharacterClass]	CharacterClass is a set of regular expression rules for matching a single character.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+id in html
+
+The IDs of elements on a page should always be unique. The whole point of the id attribute is to uniquely identify elements on a page. For this reason, they should always be unique within a given page.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+document.getElementsByTagName()
+
+There’s one other method worth investigating first. It’s the getElementsByTagName() method, which grabs all of the elements on a page of a certain kind, like div or img. This method returns an array containing all of the elements on the page, in the order that they appear in the HTML.
+Note: 	It returns an array object, from which each element can be accessed by indexing.
+ex:
+	var divs = document.getElementsByTagName("div");
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+textContent vs innerText vs innerHTML
+
+innerHTML returns an HTML directly, with all the tags and text. innerContent returns the content without the tags directly, but formatted according to the tags. And, innerText gives just the pure text.
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DOM (Document Object Model)
+
+The Document Object Model, or DOM, provides a standardized mechanism of accessing and modifying web page data.
+The DOM “sees” a web page as a hierarchical tree of nodes.
+Through the lens of the DOM, a page looks like a hierarchy of elements in the shape of a tree. Each leaf on the tree is a node, which directly relates to each element on a page. When a node appears beneath another node on the tree, it is considered a child of that node.
+The DOM is a web standard way of manipulating HTML that allows more control than using the innerHTML property.
 
 
+Node properties are handy for traversing through nodes in the DOM tree:
+	nodeValue, nodeType, childNodes, firstChild, lastChild
 
+Node also provides certain methods such as:
+	removeChild(), createTextNode(), appendChild()
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+getElementById() 	 :	for a single element (id identifies an element uniquely)  	
+getElementsByTagName()   :      for selecting a group of nodes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+className
+The className property(attribute) of a node provides access to the style class. (Provides access to the element's style class) 
+
+Swapping style classes
+To change the appearance of an element using a completely different style class, just change its style class name to a different CSS style class.
+ex:	document.getElementById("to_change").className = "class_of_new_css_style"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+two mouse events:
+	 onmouseover and onmouseout
+
+The hoverable buttons can also be made just using css, by:
+
+.button : hover {
+  background-color: red;
+  color: white;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+createElement()	: Any HTML element can be created using the document object's createElement() method
+
+The DOM can create any HTML element at will, including paragraphs of text
+Another method of the document object, createElement(), which can be used to create any HTML element. The idea is that you create a new container element using createElement(), and then you add text content to it by creating a child text node with createTextNode().
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date in Javascript
+Javascript has a builtin Date object, which can be created using:
+	var now = new Date();                                     // creates a Date object using the new operator
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Everything in Javascript is essentially an object. ex: document, window, etc.
+There are mainly 3 primitive datatypes in Javascript. They are number, string and boolean. The complex datatype is "object". Even an array in Javascript is an object.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attribure of string: length
+Methods on strings:
+	indexOf(), charAt(), toLowerCase(), toUpperCase()
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+'Math' object is an organizational object
+Think of it as (kind of like) a python's library.
+So we can use its methods like Math.round(), Math.floor(), Math.random()
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+AJAX (Asynchronous Javascript and XML)
+
+Ajax is a set of web development techniques using many web technologies on the client side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously without interfering with the display and behaviour of the existing page.
+example of usage of ajax: 	In google's search, as you type, it gives suggestions.. so for this dynamic suggestions without refreshing the page, we use ajax, which allows communication with the server without refreshing the page. This communication happens in the XML format. Nowadays, JSON is a more popularly used format for data transer.
+
+
+[	Why do we have to convert to JSON/XML before transferring data?
+	JSON/XML convert the data to a string format which is easily transferrable and interprettable on the other end. ]
+	
+	
+AJAX allows a webpage to dynamically recieve data from a web server.
+
+Steps:
+The client initiates an Ajax request, and then waits for a response.
+The client web page requests the data from the server using Ajax.
+JavaScript serves as the intermediary, initiating the request, handling the response, and incorporating the data into the web page.
+The server responds by sending the data to the client.
+Upon receiving the server’s response, the client takes the data and adds it to the page instantly, without a page reload.
+
+
+The two types of requests used with Ajax are GET and POST (the same ones used when submitting HTML forms)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The custom AjaxRequest object serves as a wrapper around the standard XMLHttpRequest, making it easier to work with Ajax.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PHP
+
+PHP is a scripting technology that can carry out tasks on the server.
+You can think of PHP as sort of a server equivalent of JavaScript in a sense that it runs on the server and is capable of carrying out custom tasks... such as writing a blog entry to a file as XML data!
+(to create the serve side component of your ajax)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
