@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <script src="./app.js"></script>
+
+    <h1> Please fill the form </h1>
+    <form>
+        <label for="name"> Name: </label>
+        <input type="text" id="name" name="name" onblur="validateName(this);">
+        <span id="name_help" class="help"> </span> <br>
+        <label for="number"> Number:</label>
+        <input type="text" id="number" name="number" onblur="validateNumber(this);"> <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
